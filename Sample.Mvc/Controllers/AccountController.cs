@@ -48,6 +48,7 @@ namespace SampleWeb.Controllers
             }
 
             // If we got this far, something failed, redisplay form
+            var ii = 2;
             return View(model);
         }
 
