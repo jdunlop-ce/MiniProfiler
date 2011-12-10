@@ -30,7 +30,7 @@ namespace SampleWeb.Models
     public class LogOnModel
     {
         [Required]
-        [Display(Name = "Your Name")]
+        [Display(Name = "Your Master Name")]
         public string UserName { get; set; }
 
         [Required]
